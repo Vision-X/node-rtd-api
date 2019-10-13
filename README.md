@@ -1,10 +1,10 @@
 # Node / Express / TBD Application for requesting/storing RTD API data for later use.
 
 ## ToDo List:
-- [] Configure API credentials and dot files
-- [] Configure Node/Express to access API
-- [] Make one request function, fs to stash
-  - [] Choose one endpoint, req, log res
+- [X] Configure API credentials and dot files
+- [X] Configure Node/Express to access API
+- [X] Make one request function, fs to stash
+  - [X] Choose one endpoint, req, log res
   - [] Find useful data points, rinse and repeat on other endpoints.
   - [] Use fs to store some response data for review
 - [] Make all requests needed

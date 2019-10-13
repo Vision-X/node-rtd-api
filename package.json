@@ -4,9 +4,23 @@
   "description": "NodeJS server for accessing the RTD open API for transit data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
-  "keywords": ["node","server","api"],
+  "keywords": [
+    "node",
+    "server",
+    "api"
+  ],
   "author": "Michael Marlow",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "gtfs-realtime-bindings": "0.0.5",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.3"
+  }
 }
