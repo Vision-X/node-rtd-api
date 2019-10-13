@@ -15,7 +15,7 @@
   - [] Devise schema(s)
 - [] Store data; ensure integrity, uptime, and availability of DB
   - [] Use tables to store/update relevant data points
-  - [] Write some tests for/ handle data type 'strictly' as possible
+  - [] Write some tests for/ handle data types as 'strictly' as possible
   - [] Create endpoints to request / consume data from db
 - [] Automate calls (to avoid rate limit penalty) and automate data collation
   - [] Bring in or use time libs for setting up 1 call / 30 secs
